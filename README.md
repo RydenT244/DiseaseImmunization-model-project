@@ -10,7 +10,7 @@ How does targeted immunization (using node degree) perform compared to random im
 Dataset:
 Source: "High-Resolution Human Contact Network for Infectious Disease Transmission"
 Size: records over 760,000 close-proximity interactions among 788 individuals at an American high school during one day.
-Location: ./data/weightedEdgeList.txt
+Location: [./data/weightedEdgeList.txt] from (https://pmc.ncbi.nlm.nih.gov/articles/PMC3009790/#_ad93_)
 
 B. Data Processing
 Loading Into Rust: 
