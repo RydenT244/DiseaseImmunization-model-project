@@ -74,15 +74,19 @@ Cargo test functions:
 test_simple_infection
 Purpose: validate correct spread though a small network with prob = 1.0
 Confirms function respects duration threshold and time step propagation
+
 test_no_infection _spread
 Purpose: ensure no nodes are infected if all edge duration below threshold
 Verifies filtering threshold prevents spread
+
 test_full_infection
 Purpose: checks complete infection of all nodes in a fully connected graph under max probability and adequate duration 
 Ensures the algorithm performs correctly in ideal transmission conditions
+
 test_isolated_nodes
 Purpose: validates that isolated or disconnected nodes never get infected 
 Confirms algorithm handles disconnected components properly 
+
 test_probabilistic_infection
 Purpose: checks stochastic infection logic by using a seeded RNG and a prob less than 1
 Ensures consistent, reproducible partial infection using probability rules  
